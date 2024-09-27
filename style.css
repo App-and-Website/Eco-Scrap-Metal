@@ -76,6 +76,18 @@
 
 @media (max-width: 1920px) {
     .hero-style4, .hero-style1 {
+        padding: 200px 0;
+    }
+    .hero_sec .th-carousel{
+        padding-bottom: 60px;
+    }
+    .hero_title_main {
+        font-size: 52px;
+        line-height: 60px;
+    }
+}
+@media (max-width: 1400px) {
+    .hero-style4, .hero-style1 {
         padding: 120px 0;
     }
     .hero_title_main {
