@@ -46,6 +46,12 @@
 .phone_mail_top_mobile{
     display: none;
 }
+.mobile_display_flex_row_top a i{
+    font-size: 18px;
+}
+.mobile_display_flex_row_top a:hover i{
+    color: #ccc!important;
+}
 @media screen and (max-width: 768px) {
     .hero_title_main{
         font-size: 36px;
