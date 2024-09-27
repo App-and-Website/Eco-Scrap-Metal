@@ -74,6 +74,25 @@
 }
 
 
+@media (max-width: 1400px) {
+    .hero-style4, .hero-style1 {
+        padding: 120px 0;
+    }
+    .hero_title_main {
+        font-size: 52px;
+        line-height: 60px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-style4, .hero-style1 {
+        padding: 80px 0;
+    }
+    .hero_title_main {
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
 .callback_form_hero{
     padding: 30px;
     margin: 0;
@@ -315,5 +334,59 @@ color: #719c6c!important;
     .desc_head p{
         width: 100%;
     }
+    .why_choose_area .wcu-img-half{
+        display: none;
+    }
+    .faq_image{
+        display: none; 
+    }
 }
 
+
+.sub_title_white .sub-title:before, .sub_title_white .sub-title:after {
+    background: #fff;
+}
+.process_area .service-card{
+    border: 1px solid #5a8b55;
+}
+@media (max-width: 991px) {
+    .why_choose_area .wcu-img-half {
+        margin-right: 0px;
+    }
+}
+.testimonial_area .testi-block .quote-icon {
+background: #2f4040;
+}
+.half_hide{
+    display: none;
+}
+.cta_small_head h2{
+    font-size: 48px!important;
+}
+.cta_small_head p {
+    margin-bottom: -20px!important;
+}
+@media (max-width: 1300px) {
+    .cta_small_head h2{
+        font-size: 42px!important;
+    }
+.cta_small_head .desc_head p{
+    width: 70%!important;
+}
+}
+@media (max-width: 1200px) {
+    .cta_small_head h2{
+        font-size: 36px!important;
+    }
+.cta_small_head .desc_head p{
+    width: 100%!important;
+}
+}
+
+
+.faq_list span{
+   font-weight: 600;
+}
+.director_button{
+    letter-spacing: 2px;
+}
