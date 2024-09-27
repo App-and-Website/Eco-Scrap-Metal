@@ -340,6 +340,13 @@ color: #719c6c!important;
     .desc_head p{
         width: 100%;
     }
+    .ceo_message_section .award-thumb{
+        padding-right: 0;
+    }
+    .ceo_message_section .award-thumb .thumb img {
+        width: 100%;
+        border-radius: 0%;
+    }
 }
 
 
