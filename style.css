@@ -1,3 +1,9 @@
+
+.header-layout4{
+    /* box-shadow: 1px 1px 4px #ccc; */
+    border-bottom: 1px solid #ccc;
+}
+
 .header_logo img{
     max-height: 80px;
     object-fit: contain;
@@ -90,6 +96,9 @@
     .hero_title_main {
         font-size: 52px;
         line-height: 60px;
+    }
+    .cta_small_head h2{
+        font-size: 42px!important;
     }
 }
 @media (max-width: 1400px) {
@@ -351,6 +360,15 @@ color: #719c6c!important;
         width: 100%;
         border-radius: 0%;
     }
+    /* .footer_copyright .copyright-text{
+        text-align: left;
+    }
+    .footer_privacy{
+        justify-content: flex-start;
+    }
+    .footer_privacy a{
+        text-align: left;
+    } */
 }
 
 
@@ -378,9 +396,6 @@ background: #2f4040;
     margin-bottom: -20px!important;
 }
 @media (max-width: 1300px) {
-    .cta_small_head h2{
-        font-size: 42px!important;
-    }
 .cta_small_head .desc_head p{
     width: 70%!important;
 }
@@ -401,3 +416,99 @@ background: #2f4040;
 .director_button{
     letter-spacing: 2px;
 }
+
+
+.contact_page_details h6, .contact_page_details p, .contact_page_details .footer_ph_ml i, .contact_page_details a{
+   color: #444!important;
+}
+.contact_page_details a i{
+    color: #fff!important;
+ }
+.contact_page_details .business_hours_footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.about_into_img_main{
+    margin-top: 50px;
+}
+.mv_item{
+    background: #e7eee6;
+    padding: 50px 50px 30px 50px;
+}
+.mv_row_main{
+    display: flex;
+    column-gap: 40px;
+}
+.brdcm_text_contact{
+    color: #719c6c!important;
+}
+.blog_row .blog-img{
+    max-height: 100%;
+    max-width: 267px;
+}
+.blog_row .blog-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.recent_posts .media-img{
+    height: 80px;
+    max-width: 80px;
+}
+.recent_posts .media-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image_fx{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image_fx img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width: 992px) {
+    .mv_row_main{
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 40px;
+    }
+}
+@media (max-width: 576px) {
+    .blog_row .blog-img{
+        max-height: auto;
+        max-width: 100%;
+    }
+}
+
+
+.service_page_form input{
+    height: 40px;
+}
+.service_page_form .file_input input {
+    padding-top: 7px;
+}
+.service_page_form .form-group{
+    margin-bottom: 10px;
+}
+.service_left_content{
+    height: fit-content;
+}
+.advantages_row{
+    overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+.service_advantages_area .row{
+   flex-direction: column-reverse;
+}
+.service_advantages_area .service_left_content{
+    padding: 25px;
+}
+}
+
