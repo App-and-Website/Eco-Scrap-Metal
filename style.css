@@ -518,3 +518,15 @@ background: #2f4040;
 .sec_padding_part{
     padding: 20px 0;
 }
+.free_quote_page p, .free_quote_page h6, .free_quote_page a, .free_quote_page .wht{
+    color: #ccc!important;
+}
+@media screen and (max-width: 768px) {
+    .free_Quote_sm_hide{
+        display: none;
+    }
+    .free_quote_minus_margin{
+        margin-bottom: 0px!important;
+    }
+}
+
